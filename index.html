@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKG Car Detailing | Premium Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <img src="logo.png" alt="EKG Logo" class="nav-logo pulse">
+            <div class="nav-right">
+                <button id="lang-toggle" class="lang-btn">BG / EN</button>
+                <nav>
+                    <a href="#hero" data-en="Home" data-bg="Начало">Home</a>
+                    <a href="#services" data-en="Services" data-bg="Услуги">Services</a>
+                    <a href="#contact" data-en="Contact" data-bg="Контакт">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-parallax">
+            <div class="hero-content zoom-in">
+                <h1 data-en="Premium Car Detailing" data-bg="Премиум Автодетайлинг">Premium Car Detailing</h1>
+                <p class="hero-sub" data-en="Mastering the art of vehicle perfection." data-bg="Изкуството на съвършенството.">Mastering the art of vehicle perfection.</p>
+                <div class="hero-btn-wrap">
+                    <a href="#contact" class="btn-primary" data-en="Book Now" data-bg="Резервирай">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title reveal" data-en="Our Expertise" data-bg="Нашите Услуги">Our Expertise</h2>
+                <div class="cards-wrapper">
+                    <div class="card reveal-left">
+                        <div class="card-icon">🎨</div>
+                        <h3 data-en="Car Paint Jobs" data-bg="Боядисване">Car Paint Jobs</h3>
+                        <p data-en="High-quality automotive refinishing." data-bg="Висококачествено боядисване.">High-quality automotive refinishing.</p>
+                    </div>
+                    <div class="card reveal-right">
+                        <div class="card-icon">💎</div>
+                        <h3 data-en="Ceramic Coating" data-bg="Керамично Покритие">Ceramic Coating</h3>
+                        <p data-en="Ultimate paint protection." data-bg="Максимална защита на лака.">Ultimate paint protection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-parallax">
+            <div class="form-overlay reveal">
+                <h2 data-en="Get a Quote" data-bg="Вземи Оферта">Get a Quote</h2>
+                <form action="https://formspree.io/f/ermalbmw1231@gmail.com" method="POST" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="name" id="name-field" placeholder="Name" required>
+                        <input type="tel" name="phone" id="phone-field" placeholder="Phone" required>
+                        <textarea name="message" id="msg-field" placeholder="Car model & Year" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" data-en="Send Request" data-bg="Изпрати">Send Request</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
